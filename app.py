@@ -28,6 +28,10 @@ def question_answer():
     return jsonify({'answer': answer})
 # 
 
+@app.route('/test', methods=['GET'])
+def hello_world():
+    return 'Hello, World!'
+
 # Function to run the Flask app in a separate thread
 def run_flask_app():
     app.run(debug=False, port=5001)

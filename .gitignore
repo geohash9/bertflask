@@ -1,0 +1,63 @@
+# Byte-compiled / optimized Python files
+__pycache__/
+*.pyc
+
+# Virtual environment
+venv/
+venv*/
+
+# IDE files
+.vscode/
+.idea/
+
+# Logs
+*.log
+
+# Environment configuration
+.env
+
+# Compiled Python files
+*.pyc
+*.pyo
+__pycache__/
+
+# Local development configuration
+instance/
+
+# macOS
+.DS_Store
+
+# Compiled Python modules
+*.pyc
+*.pyo
+
+# Compiled C extensions
+*.so
+
+# Python egg metadata
+*.egg-info/
+
+# Distribution / packaging
+dist/
+build/
+eggs/
+*.egg-info/
+
+# Environment
+.env
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# Static files
+/static
+
+# Template files
+/templates
+
+# Dependency directories
+/.venv
+/.env
+
+# Database files
+*.db

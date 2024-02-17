@@ -44,3 +44,6 @@ flask_thread.start()
 print("Flask app is running on port 5001.")
 
 # You can now use the Flask API as described in the previous response.
+
+if __name__ == '__main__':
+    app.run(host="0.0.0.0")

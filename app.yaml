@@ -1,7 +1,5 @@
 runtime: python39
 
 handlers:
-- url: .*
-  script: auto
-
-gunicorn -b :$PORT main:app
+- url: /.*
+  static_dir: main.app
